@@ -17,5 +17,6 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(name) {
-return [name, ...kittens];
+const moreKittens = [name, ...kittens];
+return moreKittens;
 }
